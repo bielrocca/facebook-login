@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    background-image: url(img/paisagem.avif);
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side h1 {
+    color: rgb(0, 119, 255);
+    width: 50vh;
+}
+
+.left-side p {
+    color: white;
+}
+
+.left-side {
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 75px;
+    box-shadow: 0px 10px 40px;
+    backdrop-filter: blur(6px);
+    border-radius: 6px;
+}
+
+.card-login input {
+    width: 25vh;
+}
+
+.card-login > h1 {
+    margin: 0;
+}
+
+.btn-login {
+    background-color: rgb(71, 172, 255);
+    border-radius: 16px;
+    width: 20vh;
+    border-color: rgb(71, 172, 255);
+    color: white;
+}
+
+.btn-register {
+    background-color: rgb(3, 194, 67);
+    border-radius: 16px;
+    border-color: rgb(3, 194, 67);
+    color: white;
+    width: 25vh;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 3px;
+    font-size: 10pt;
+    outline: none;
+}
+
+.forget {
+    font-size: 14px;
+}
+
+.card-login h2{
+    color: white;
+}
